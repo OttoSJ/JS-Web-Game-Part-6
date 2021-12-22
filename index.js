@@ -6,6 +6,11 @@ const npc = newNonPlayableCharacter(50, 300)
 
 // have the NPC start walking east immediately
 
+
+
+
+//  I WRAPPED THIS ALL IN A FUCNTION IN AN ATTEMPT TO GET THE BONUS FOR -->
+//  MAKING THE CHARACTER LOOP AGAIN THROUGH THE SAME PATTERN BUT WAS UNSECSESSFUL
 function moveCharacter() {
 
     npc.walkNorth(400).then(message => {
